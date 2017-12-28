@@ -1,0 +1,42 @@
+{
+  "name": "eslint-config-cantonjs-resolver",
+  "version": "0.0.0",
+  "description": "ESLint shareable config for the Cantonjs JavaScript style guide with resolver",
+  "main": "index.js",
+  "files": [
+    "base.js",
+    "react.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "repository": "https://github.com/cantonjs/eslint-config-cantonjs-resolver",
+  "author": "Cap32",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "node test/test.js",
+    "preversion": "npm test"
+  },
+  "peerDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-plugin-module-resolver": "^3.0.0-beta",
+    "eslint": "^4.0.0",
+    "webpack": ">=1.11.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "eslint": "^4.14.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.1.2",
+    "eslint-config-cantonjs": "^0.0.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
