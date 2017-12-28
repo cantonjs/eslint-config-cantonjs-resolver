@@ -32,6 +32,11 @@ Once the `eslint-config-cantonjs-resolver` package is installed, you can use it 
 - `extends: "cantonjs-resolver/react-resolve"` `base` + `react` + [import/resolver](https://github.com/benmosher/eslint-plugin-import)
 
 
+## Related Projects
+
+- [eslint-config-cantonjs](https://github.com/cantonjs/eslint-config-cantonjs)
+
+
 ## License
 
 MIT © Cantonjs
