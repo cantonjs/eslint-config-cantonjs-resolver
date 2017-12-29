@@ -5,9 +5,7 @@ module.exports = {
 	'extends': 'cantonjs',
 	'settings': {
 		'import/resolver': {
-			'webpack': {
-				'config': 'webpack.config.babel.js',
-			},
+			'webpack': {},
 			'babel-module': {},
 		},
 	},
