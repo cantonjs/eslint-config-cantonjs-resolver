@@ -2,7 +2,7 @@
   "name": "eslint-config-cantonjs-resolver",
   "version": "0.0.1",
   "description": "ESLint shareable config for the Cantonjs JavaScript style guide with resolver",
-  "main": "index.js",
+  "main": "base.js",
   "files": [
     "base.js",
     "react.js",
