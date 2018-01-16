@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "babel-eslint": "^8.1.2",
-    "eslint-config-cantonjs": "^0.0.0",
+    "eslint-config-cantonjs": "^0.1.0",
     "eslint-import-resolver-babel-module": "^4.0.0",
     "eslint-import-resolver-webpack": "^0.8.3",
     "eslint-plugin-import": "^2.8.0"
