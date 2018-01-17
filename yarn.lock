@@ -1001,9 +1001,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-cantonjs@^0.1.0:
-  version "0.1.0"
-  resolved "http://registry.npm.taobao.org/eslint-config-cantonjs/download/eslint-config-cantonjs-0.1.0.tgz#7f8a154e02335e6acc17c32b8b05d1c7276c6709"
+eslint-config-cantonjs@^0.2.0:
+  version "0.2.0"
+  resolved "http://registry.npm.taobao.org/eslint-config-cantonjs/download/eslint-config-cantonjs-0.2.0.tgz#7af28449ef91f27196951fa38a10d0e88af44921"
   dependencies:
     babel-eslint "^8.1.2"
     eslint-config-standard "^11.0.0-beta.0"
