@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/cantonjs/eslint-config-cantonjs-resolver.svg?branch=master)](https://travis-ci.org/cantonjs/eslint-config-cantonjs-resolver)
 
-> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the Cantonjs
+> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for the Cantonjs, with [import/resolver](https://github.com/benmosher/eslint-plugin-import)
 
 
 ## Installation
@@ -10,6 +10,8 @@
 ```
 $ npm install --save-dev eslint eslint-config-cantonjs-resolver
 ```
+
+You may also need to add [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver) and [webpack](https://github.com/webpack/webpack)
 
 
 ## Usage
@@ -24,6 +26,8 @@ Once the `eslint-config-cantonjs-resolver` package is installed, you can use it 
   }
 }
 ```
+
+**Note** You may also need to config [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver/blob/master/DOCS.md) and [webpack resolve](https://webpack.js.org/configuration/resolve/) to make resolvers work
 
 ## Configures / Extends
 
