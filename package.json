@@ -18,7 +18,7 @@
 	},
 	"peerDependencies": {
 		"babel-core": "^6.0.0",
-		"babel-plugin-module-resolver": "^3.0.0-beta",
+		"babel-plugin-module-resolver": ">=3.0.0-beta",
 		"eslint": "^4.19.0",
 		"eslint-config-standard": "^11.0.0",
 		"eslint-config-cantonjs": "^1.0.0-0",
